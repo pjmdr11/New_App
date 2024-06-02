@@ -19,8 +19,10 @@ class AppCubit extends Cubit<AppState> {
     switch (appUseCase.getTheme()) {
       case appThemeLight:
         emit(state.copyWith(theme: ThemeMode.light));
+        break;
       case appThemeDark:
         emit(state.copyWith(theme: ThemeMode.dark));
+        break;
     }
   }
 

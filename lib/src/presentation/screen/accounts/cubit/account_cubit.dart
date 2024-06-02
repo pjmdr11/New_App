@@ -1,5 +1,5 @@
-import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:kliq_technical_test/src/core/resources/data_state.dart';
 import 'package:kliq_technical_test/src/data/source/local/hive/users/user.dart';
